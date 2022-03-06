@@ -88,7 +88,6 @@ plugins=(git
   docker
   sudo
   docker-compose
-  zsh-interactive-cd
 )
 
 source $ZSH/oh-my-zsh.sh
