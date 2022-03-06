@@ -85,7 +85,11 @@ plugins=(git
 	zsh-autosuggestions
 	zsh-syntax-highlighting
 	asdf
-	)
+  docker
+  sudo
+  docker-compose
+  zsh-interactive-cd
+)
 
 source $ZSH/oh-my-zsh.sh
 
