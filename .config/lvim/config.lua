@@ -11,7 +11,7 @@ an executable
 -- general
 lvim.log.level = "warn"
 lvim.format_on_save = true
-lvim.colorscheme = "monokai_soda"
+lvim.colorscheme = "tokyonight"
 
 -- keymappings [view all the defaults by pressing <leader>Lk]
 lvim.leader = "space"
