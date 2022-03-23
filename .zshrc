@@ -126,3 +126,6 @@ alias ls="exa --icons"
 alias cat="bat --style=auto"
 alias bu="bundle update"
 alias bi="bundle install"
+alias rsp="rspec"
+
+export PATH=~/.cargo/bin:~/.local/bin:$PATH 
