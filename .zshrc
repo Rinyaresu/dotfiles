@@ -127,5 +127,9 @@ alias cat="bat --style=auto"
 alias bu="bundle update"
 alias bi="bundle install"
 alias rsp="rspec"
+alias rt="rails test:all"
 
 export PATH=~/.cargo/bin:~/.local/bin:$PATH 
+
+# heroku autocomplete setup
+HEROKU_AC_ZSH_SETUP_PATH=/home/rinyaresu/.cache/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH;
