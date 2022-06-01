@@ -121,6 +121,8 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+# -------------------------------ALIAS--------------------------------------------
+
 
 alias ls="exa --icons"
 alias cat="bat --style=auto"
@@ -128,8 +130,23 @@ alias bu="bundle update"
 alias bi="bundle install"
 alias rsp="rspec"
 alias rt="rails test:all"
+alias gph="git push heroku main"
+alias h="heroku"
+alias dbmigrate="rails db:migrate"
+alias dbcreate="rails db:create"
+alias dbdrop="rails db:drop"
+alias dbrollback="rails db:rollback"
+alias cd="z"
+
+# --------------------------------------------------------------------------------
 
 export PATH=~/.cargo/bin:~/.local/bin:$PATH 
 
 # heroku autocomplete setup
 HEROKU_AC_ZSH_SETUP_PATH=/home/rinyaresu/.cache/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH;
+
+export PATH=$PATH:/home/rinyaresu/.spicetify
+
+export BAT_THEME=OneHalfLight
+
+eval "$(zoxide init zsh)"

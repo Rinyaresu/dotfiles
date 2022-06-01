@@ -1300,6 +1300,6 @@ linux_display_server auto
 
 
 # BEGIN_KITTY_THEME
-# Atom One Light
+# Tokyo Night Day
 include current-theme.conf
 # END_KITTY_THEME
