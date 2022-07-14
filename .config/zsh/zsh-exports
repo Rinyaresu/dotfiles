@@ -8,3 +8,4 @@ eval "$(zoxide init zsh)"
 export PATH=~/.cargo/bin:~/.local/bin:$PATH
 export BAT_THEME=Coldark-Dark
 . $HOME/.asdf/asdf.sh
+. "$HOME/.cargo/env"
