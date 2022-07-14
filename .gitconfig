@@ -1,0 +1,9 @@
+[user]
+	email = kaiquelinhare17@outlook.com
+	name = rinyaresu
+[color]
+	ui = true
+[core]
+	editor = nvim
+[commit]
+	template = ~/dotfiles/.gitmessage
