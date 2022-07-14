@@ -1,9 +1,17 @@
-<type>(<scope>): <summary>
+<type>(<scope>): <subject>
+<BLANK LINE>
+<body>
+<BLANK LINE>
+<footer>
 
-<Describe the motivation behind this change - explain WHY you are making this change. Wrap all lines
-at 100 characters.>
+# EXAMPLE
 
-Fixes/kaban-card - <issue number>
+# fix(middleware): ensure Range headers adhere more closely to RFC 2616
+
+# Add one new dependency, use `range-parser` (Express dependency) to compute
+# range. It is more well-tested in the wild.
+
+# Fixes <pull request>
 
 
 # Commit Message Header
