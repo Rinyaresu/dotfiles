@@ -45,8 +45,6 @@ bindkey "^p" up-line-or-beginning-search # Up
 bindkey "^n" down-line-or-beginning-search # Down
 bindkey "^k" up-line-or-beginning-search # Up
 bindkey "^j" down-line-or-beginning-search # Down
-bindkey -r "^u"
-bindkey -r "^d"
 
 # FZF 
 # TODO update for mac
@@ -63,7 +61,7 @@ compinit
 autoload edit-command-line; zle -N edit-command-line
 
 # Environment variables set everywhere
-export EDITOR="nvim"
+export EDITOR="code --wait"
 
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
