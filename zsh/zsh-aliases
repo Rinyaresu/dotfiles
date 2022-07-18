@@ -5,7 +5,8 @@ alias g='lazygit'
 alias zsh-update-plugins="find "$ZDOTDIR/plugins" -type d -exec test -e '{}/.git' ';' -print0 | xargs -I {} -0 git -C {} pull -q"
 alias nvimrc='nvim ~/.config/nvim/'
 alias ls="exa --icons --color=always"
-alias tree="exa --tree --git-ignore --icons --color=always"
+alias tree='exa -T --git-ignore -I "**/node_modules" --icons --group-directories-first'
+alias weather='curl wttr.in\?format="%l:+%c+%t+feels+like+%f\n"'
 alias cat="bat --style=auto"
 alias bu="bundle update"
 alias bi="bundle install"
