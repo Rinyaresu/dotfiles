@@ -18,7 +18,7 @@ system 'sudo pacman -S --needed base-devel && git clone https://aur.archlinux.or
 puts 'Yay instalado'
 sleep(2)
 puts 'Vamos instalar o seus pacotes'
-system 'yay -Syu spotify exa bat fzf fd lazygit ripgrep github-cli postgresql postgresql-utils vim openssh discord obsidian wget curl python-pip'
+system 'yay -Syu spotify exa bat fzf fd lazygit ripgrep github-cli postgresql postgresql-utils vim openssh discord obsidian wget curl python-pip visual-studio-code-bin google-chrome'
 puts 'Pacotes instalados'
 puts 'Agora vamos baixar suas dotfiles'
 system 'git clone https://github.com/Rinyaresu/dotfiles.git'
