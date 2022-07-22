@@ -1,4 +1,6 @@
-#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# !/usr/bin/env ruby
 
 # script que eu uso para reeinstalar os meus pacotes, normalmente ele fica no pendrive junto da iso
 
