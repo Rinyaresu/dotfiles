@@ -31,3 +31,8 @@ alias rm='rm -i'
 
 # systemd
 alias mach_list_systemctl="systemctl list-unit-files --state=enabled"
+
+
+# git
+
+alias glg="git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset' --all"
