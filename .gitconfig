@@ -1,9 +1,11 @@
 [user]
 	email = kaiquelinhares17@outlook.com # esse 17 não tem nada a ver com o bolsonaro
 	name = rinyaresu
+	signingkey = B7553245250992054C2500708ADF0FEA66C396C9
 [color]
 	ui = true
 [core]
 	editor = code --wait
 [commit]
 	template = ~/dotfiles/.gitmessage
+	gpgsign = true
